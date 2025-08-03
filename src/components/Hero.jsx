@@ -13,11 +13,11 @@ export default function Hero() {
 
                     <a href="#menu" className="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">Menu</a>
 
-                    <a href="#contact" className="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">Testimonials</a>
-
-                    <a href="#testimonials" className="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">Contact Us</a>
+                    <a href="#testimonials" className="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">Testimonials</a>
 
                     <a href="#order" className="mx-2 border-b-2 border-transparent text-blue-500 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">Order Now</a>
+
+                    <a href="#contact" className="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">Contact Us</a>
                 </div>
             </div>
         </nav>

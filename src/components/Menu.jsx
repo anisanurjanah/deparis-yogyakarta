@@ -15,8 +15,8 @@ export default function Menu() {
                 <div className="lg:mx-12">
                     <div className="mt-4 space-y-4 lg:mt-8">
                         <a href="#" className="block text-blue-500 dark:text-blue-400 hover:underline">Seafood</a>
-                        <a href="#" className="block text-blue-500 dark:text-gray-300 hover:underline">Beef Ribs</a>
-                        <a href="#" className="block text-blue-500 dark:text-gray-300 hover:underline">Fish</a>
+                        <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Beef Ribs</a>
+                        <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Fish</a>
                         <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Vegetable</a>
                         <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Main Course</a>
                         <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Drinks</a>

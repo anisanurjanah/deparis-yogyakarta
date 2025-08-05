@@ -7,7 +7,7 @@ export default function Footer() {
                         <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
                     </a>
 
-                    <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2021. All Rights Reserved.</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright <a href="https://github.com/anisanurjanah">NEilR</a> 2025. All Rights Reserved.</p>
 
                     <div class="flex -mx-2">
                         <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Reddit">

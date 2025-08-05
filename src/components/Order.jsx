@@ -2,7 +2,7 @@ export default function Order() {
     return (
         <>
             <section id="order" className="bg-blue-200 dark:bg-gray-900">
-                <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+                <div className="container flex flex-col items-center px-6 py-12 mx-auto text-center">
                     <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
                         Bring your Business to the <span className="text-blue-500">next level.</span>
                     </h2>

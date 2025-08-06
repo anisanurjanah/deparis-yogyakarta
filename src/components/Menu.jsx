@@ -1,14 +1,14 @@
-export default function Menu() {
-    const categories = [
-        "Seafood", "Beef Ribs", "Fish", "Vegetable", 
-        "Main Course", "Drinks", "Blend", "Snack"
-    ];
+import { useState } from "react";
+import menu from "../data/menu.json";
 
-    const menuItems = [
-        { name: "Nasi Goreng Spesial", price: "25K", img: "/nasi-goreng.jpg" },
-        { name: "Sate Ayam", price: "30K", img: "/sate.jpg" },
-        { name: "Es Teh Manis", price: "8K", img: "/esteh.jpg" },
-    ];
+export default function Menu() {
+    const [selectedCategory, setSelectedCategory] = useState("Seafood");
+
+    const categories = menu.categories;
+    const menuItems = menu.menuItems;
+    const filteredItems = selectedCategory
+        ? menuItems.filter(item => item.category === selectedCategory)
+        : menuItems;
 
     return (
         <>
@@ -16,40 +16,46 @@ export default function Menu() {
                 <div className="container px-6 py-12 mx-auto">
                     <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">DeParis Menu</h1>
 
-                    <div className="lg:hidden flex overflow-x-auto space-x-4 space-y-4 mb-4 mt-4">
+                    <div className="lg:hidden flex overflow-x-auto space-x-4 mb-4 mt-4">
                         {
-                            categories.map((category) => (
-                                <a
+                            [...categories].map((category) => (
+                                <button
                                     key={category}
-                                    href="#"
-                                    className="flex-shrink-0 px-4 py-2 text-sm bg-gray-100 rounded-full text-gray-700 dark:bg-gray-800 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+                                    onClick={() => setSelectedCategory(category)}
+                                    className={`flex-shrink-0 px-4 py-2 text-sm rounded-full cursor-pointer ${
+                                        selectedCategory === category
+                                        ? "bg-gray-300 text-gray-800"
+                                        : "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                                    }`}
                                 >
                                     {category}
-                                </a>
+                                </button>
                             ))
                         }
                     </div>
 
                     <div className="flex flex-col lg:flex-row lg:gap-12 mt-6">
                         <aside className="hidden lg:block w-1/4">
-                            <div className="space-y-4">
-                                {
-                                    categories.map((category, idx) => (
-                                        <a
-                                            key={idx}
-                                            href="#"
-                                            className={`block text-gray-500 dark:text-gray-300 hover:underline`}
-                                        >
-                                            {category}
-                                        </a>
-                                    ))
-                                }
-                            </div>
+                            {
+                                [...categories].map((category) => (
+                                    <button
+                                        key={category}
+                                        onClick={() => setSelectedCategory(category)}
+                                        className={`block text-left w-full px-4 py-2 rounded-md transition cursor-pointer ${
+                                            selectedCategory === category
+                                            ? "bg-gray-300 text-gray-800"
+                                            : "text-gray-500 dark:text-gray-300 hover:underline"
+                                        }`}
+                                    >
+                                        {category}
+                                    </button>
+                                ))
+                            }
                         </aside>
 
                         <main className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                             {
-                                menuItems.map((item, idx) => (
+                                filteredItems.map((item, idx) => (
                                     <div
                                         key={idx}
                                         className="bg-white rounded-lg shadow-md dark:bg-gray-800"
@@ -65,6 +71,7 @@ export default function Menu() {
                                             <h2 className="text-lg font-semibold text-gray-800 dark:text-white">
                                                 {item.name}
                                             </h2>
+
                                             <p className="text-sm text-blue-500 dark:text-blue-400 mt-1">{item.price}</p>
                                         </div>
                                     </div>

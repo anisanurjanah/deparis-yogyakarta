@@ -1,0 +1,378 @@
+{
+    "categories": [
+        "Seafood",
+        "Beef Ribs",
+        "Fish",
+        "Vegetable",
+        "Main Course",
+        "Drinks",
+        "Blend",
+        "Snack"
+    ],
+    "menuItems": [
+        {
+            "id": 1,
+            "name": "Udang (Small Portion)",
+            "price": 20000,
+            "image": "/shrimp-small.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 2,
+            "name": "Udang (Large Portion)",
+            "price": 50000,
+            "image": "/shrimp-large.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 3,
+            "name": "Cumi (Small Portion)",
+            "price": 20000,
+            "image": "/squid-small.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 4,
+            "name": "Cumi (Large Portion)",
+            "price": 50000,
+            "image": "/squid-large.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 5,
+            "name": "Kerang (Small Portion)",
+            "price": 20000,
+            "image": "/shells-small.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 6,
+            "name": "Kerang (Large Portion)",
+            "price": 50000,
+            "image": "/shells-large.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 7,
+            "name": "Udang Cumi Kerang (Small Portion)",
+            "price": 60000,
+            "image": "/seafood-mix-small.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 8,
+            "name": "Udang Cumi Kerang (Large Portion)",
+            "price": 150000,
+            "image": "/seafood-mix-large.jpg",
+            "category": "Seafood"
+        },
+        {
+            "id": 9,
+            "name": "Iga Mercon",
+            "price": 35000,
+            "image": "/mercon-rib.jpg",
+            "category": "Beef Ribs"
+        },
+        {
+            "id": 10,
+            "name": "Iga Bakar",
+            "price": 35000,
+            "image": "/grilled-rib.jpg",
+            "category": "Beef Ribs"
+        },
+        {
+            "id": 11,
+            "name": "Sup Iga",
+            "price": 35000,
+            "image": "/rib-soup.jpg",
+            "category": "Beef Ribs"
+        },
+        {
+            "id": 12,
+            "name": "Ikan Cakalang",
+            "price": 40000,
+            "image": "/cakalang-fish.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": 13,
+            "name": "Ikan Salem",
+            "price": 40000,
+            "image": "/salem-fish.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": 14,
+            "name": "Ikan Bawal Laut",
+            "price": 40000,
+            "image": "/sea-bass.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": 15,
+            "name": "Ikan Kakap Karang",
+            "price": 40000,
+            "image": "/reef-snapper.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": 16,
+            "name": "Ikan Gurameh",
+            "price": 50000,
+            "image": "/carp-fish.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": 17,
+            "name": "Ikan Tuna",
+            "price": 40000,
+            "image": "/tuna-fish.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": 18,
+            "name": "Cah Sawi",
+            "price": 10000,
+            "image": "/cah-sawi.jpg",
+            "category": "Vegetable"
+        },
+        {
+            "id": 19,
+            "name": "Cah Kangkung",
+            "price": 10000,
+            "image": "/cah-kale.jpg",
+            "category": "Vegetable"
+        },
+        {
+            "id": 20,
+            "name": "Capcay Goreng",
+            "price": 10000,
+            "image": "/fried-capcay.jpg",
+            "category": "Vegetable"
+        },
+        {
+            "id": 21,
+            "name": "Nasi Putih",
+            "price": 5000,
+            "image": "/white-rice.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 22,
+            "name": "Nasi Ayam",
+            "price": 15000,
+            "image": "/chicken-rice.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 23,
+            "name": "Nasi Goreng",
+            "price": 15000,
+            "image": "/fried-rice.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 24,
+            "name": "Indomie",
+            "price": 10000,
+            "image": "/indomie.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 25,
+            "name": "Kwetiaw",
+            "price": 15000,
+            "image": "/kwetiaw.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 26,
+            "name": "Omellete",
+            "price": 15000,
+            "image": "/omellete.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 27,
+            "name": "Nasi Goreng Seafood",
+            "price": 25000,
+            "image": "/seafood-fried-rice.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 28,
+            "name": "Kwetiaw Seafood",
+            "price": 25000,
+            "image": "/seafood-kwetiaw.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 29,
+            "name": "Fuyung Hay",
+            "price": 15000,
+            "image": "/fuyung-hay.jpg",
+            "category": "Main Course"
+        },
+        {
+            "id": 30,
+            "name": "Teh",
+            "price": 5000,
+            "image": "/tea.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 31,
+            "name": "Jeruk",
+            "price": 5000,
+            "image": "/orange.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 32,
+            "name": "Kopi",
+            "price": 5000,
+            "image": "/coffee.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 33,
+            "name": "Nutrisari",
+            "price": 5000,
+            "image": "/nutrisari.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 34,
+            "name": "Le Mineral",
+            "price": 5000,
+            "image": "/le-mineral.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 35,
+            "name": "Lemon Tea",
+            "price": 5000,
+            "image": "/lemon-tea.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 36,
+            "name": "Nipis Madu",
+            "price": 7000,
+            "image": "/honey-lime.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 37,
+            "name": "Teh Pucuk Harum",
+            "price": 7000,
+            "image": "/fragrant-pucuk-tea.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 38,
+            "name": "Wedhang Jahe",
+            "price": 7000,
+            "image": "/wedhang-jahe.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 39,
+            "name": "Wedhang Uwuh",
+            "price": 7000,
+            "image": "/wedhang-uwuh.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 40,
+            "name": "Teh Tubruk",
+            "price": 5000,
+            "image": "/tubruk-tea.jpg",
+            "category": "Drinks"
+        },
+        {
+            "id": 41,
+            "name": "Banana Juice",
+            "price": 7000,
+            "image": "/banana-juice.jpg",
+            "category": "Blend"
+        },
+        {
+            "id": 42,
+            "name": "Mango Juice",
+            "price": 7000,
+            "image": "/mango-juice.jpg",
+            "category": "Blend"
+        },
+        {
+            "id": 43,
+            "name": "Avocado Juice",
+            "price": 7000,
+            "image": "/avocado-juice.jpg",
+            "category": "Blend"
+        },
+        {
+            "id": 44,
+            "name": "Guava Juice",
+            "price": 7000,
+            "image": "/guava-juice.jpg",
+            "category": "Blend"
+        },
+        {
+            "id": 45,
+            "name": "Taro Milkshake",
+            "price": 10000,
+            "image": "/taro-milkshake.jpg",
+            "category": "Blend"
+        },
+        {
+            "id": 46,
+            "name": "Chocolate Milkshake",
+            "price": 10000,
+            "image": "/chocolate-milkshake.jpg",
+            "category": "Blend"
+        },
+        {
+            "id": 47,
+            "name": "Mendoan",
+            "price": 15000,
+            "image": "/mendoan.jpg",
+            "category": "Snack"
+        },
+        {
+            "id": 48,
+            "name": "Kentang Goreng",
+            "price": 15000,
+            "image": "/fried-potatoes.jpg",
+            "category": "Snack"
+        },
+        {
+            "id": 49,
+            "name": "Kentang Rebus",
+            "price": 15000,
+            "image": "/boiled-potatoes.jpg",
+            "category": "Snack"
+        },
+        {
+            "id": 50,
+            "name": "Potatoe Wedges",
+            "price": 15000,
+            "image": "/potatoe-wedges.jpg",
+            "category": "Snack"
+        },
+        {
+            "id": 51,
+            "name": "Bakwan",
+            "price": 15000,
+            "image": "/bakwan.jpg",
+            "category": "Snack"
+        },
+        {
+            "id": 52,
+            "name": "Pisang Goreng",
+            "price": 15000,
+            "image": "/fried-banana.jpg",
+            "category": "Snack"
+        }
+    ]
+}
